@@ -1,14 +1,15 @@
 {
   "name": "pro_server_express",
   "version": "1.0.0",
-  "main": "dist/index.js",
-  "scripts": {
-    "dev": "nodemon --exec ts-node .",
-    "build": "tsc -p .",
-    "start": "node ."
-  },
   "author": "魔咔啦咔",
   "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "key": "cd ./src/tools/key && go run main.go",
+    "dev": "nodemon --exec ts-node ./src/index.ts",
+    "build": "tsc -p .",
+    "serve": "node ."
+  },
   "devDependencies": {
     "@types/express": "^4.17.9",
     "@types/node": "^14.14.20",
