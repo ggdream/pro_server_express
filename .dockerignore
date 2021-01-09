@@ -1,0 +1,11 @@
+.idea
+.vscode
+.git
+.gitignore
+
+node_modules
+/src
+/docs
+
+*.log
+ekey
