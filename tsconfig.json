@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "outFile": "index.js",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "module": "system"
+  }
+}
